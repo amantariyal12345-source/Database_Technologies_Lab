@@ -1,0 +1,73 @@
+/*
+Q4. Create a CSS file and style the student registration page. Include a heading, form labels,
+input fields, button styling, spacing, and a simple student-management layout.
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 16px;
+    font-family: Arial, sans-serif;
+    background: #f2f5f9;
+    color: #263238;
+}
+
+.container {
+    width: 100%;
+    max-width: 520px;
+    margin: 20px auto;
+    padding: 28px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.10);
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #174a75;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #b8c4ce;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid #8bbce5;
+    border-color: #2878b8;
+}
+
+button {
+    margin-top: 14px;
+    padding: 12px;
+    border: 0;
+    border-radius: 5px;
+    background: #1769aa;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #104f82;
+}
